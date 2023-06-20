@@ -1,0 +1,411 @@
+* {
+  box-sizing:border-box;
+}
+body {
+  margin:0;
+  background-color:hsl(240, 78%, 98%);
+  font-family: 'Montserrat', sans-serif;
+}
+.b_i {
+  width: 357px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+.t_i {
+  width:310px;
+  position:absolute;
+  top:0;
+  right:0;
+}
+.our_p {
+  font-size: 35px;
+  color: hsl(233, 13%, 49%);
+  position: absolute;
+  left: 50%;
+  transform: translatex(-50%);
+  top:45px;
+}
+.an,
+.mon {
+  color: hsl(234, 14%, 74%);
+  font-size: 17px;
+  top: 144px;
+  position: absolute;
+  left: 585px;
+}
+.mon {
+  left:775px;
+}
+.option {
+  width:70px;
+  height:35px;
+  background-image:linear-gradient(90deg,hsl(236, 72%, 79%),hsl(237, 63%, 64%));
+  border-radius:50px;
+  position:absolute;
+  left:50%;
+  transform:translatex(-50%);
+  top:151px;
+  cursor:pointer;
+}
+.op {
+  width: 27px;
+  height: 27px;
+  border-radius: 20px;
+  background-color: white;
+  position: absolute;
+  top: 4px;
+  left: 5px;
+  cursor:pointer;
+  transition-duration:.4s;
+  transition-timing-function: cubic-bezier(0.18, 0.89, 0.32, 1.28);
+}
+.Aop {
+  width: 27px;
+  height: 27px;
+  border-radius: 20px;
+  background-color: white;
+  position: absolute;
+  top: 4px;
+  left: 38px;
+  cursor: pointer;
+  transition-duration: .4s;
+  transition-timing-function: cubic-bezier(0.18, 0.89, 0.32, 1.28);
+}
+.card1,
+.card2,
+.card3 {
+width: 344px;
+  height: 460px;
+  background-color:white;
+  box-shadow: 0px 17px 41px 7px hsla(234, 13%, 49%, 0.123);
+  position: absolute;
+  left: 50%;
+  transform: translatex(-50%);
+  top: 245px;
+  border-radius: 14px;
+  z-index:2;
+  justify-content:center;
+  display:flex;
+  cursor:pointer;
+  transition-duration:.3s;
+}
+.Acard1 {
+  width: 344px;
+  height: 510px;
+  background-color:hsl(237, 78%, 74%);
+  box-shadow: 0px 17px 41px 7px hsla(234, 13%, 49%, 0.123);
+  position: absolute;
+  left: 50%;
+  transform: translatex(-50%);
+  top: 215px;
+  border-radius: 14px;
+  z-index: 2;
+  justify-content: center;
+  align-self:center;
+  display: flex;
+  cursor: pointer;
+  transition-duration: .3s;
+}
+.card2 {
+  background-color:white;
+  left:26.5%;
+  z-index:1;
+  box-shadow: -12px 17px 41px 1px hsla(234, 13%, 49%, 0.123);
+}
+.card3 {
+  background-color:white;
+  left:73.5%;
+  z-index:1;
+  box-shadow: 12px 17px 41px 1px hsla(234, 13%, 49%, 0.123);
+}
+.pro {
+  color:hsl(233, 13%, 49%);
+  font-size:19px;
+  top:25px;
+  position:absolute;
+  transition-duration:.3s;
+}
+.price1 {
+  color: hsl(232, 13%, 33%);
+  font-size: 55px;
+  position: absolute;
+  top: 45px;
+  transition-duration: .3s;
+}
+.card1_hr1 {
+  width: 270px;
+  height: 0.2px;
+  background-color: hsl(233deg 13% 49% / 39%);
+  position: absolute;
+  top: 173px;
+  transition-duration: .3s;
+}
+.card1_tb {
+  color: hsl(233, 13%, 49%);
+  font-size: 17.5px;
+  top: 178px;
+  position: absolute;
+  transition-duration: .3s;
+}
+.card1_hr2 {
+  width: 270px;
+  height: 0.2px;
+  background-color: hsl(233deg 13% 49% / 39%);
+  position: absolute;
+  top: 228px;
+  transition-duration: .3s;
+}
+.card1_user {
+  color: hsl(233, 13%, 49%);
+  font-size: 17.5px;
+  top: 234px;
+  position:absolute;
+  transition-duration: .3s;
+}
+.card1_hr3 {
+  width: 270px;
+  height: 0.2px;
+  background-color: hsl(233deg 13% 49% / 39%);
+  position: absolute;
+  top: 283px;
+  transition-duration: .3s;
+}
+.card1_send {
+position: absolute;
+  color: hsl(233, 13%, 49%);
+  top: 287px;
+  font-size: 17px;
+  transition-duration: .3s;
+}
+.card1_hr4 {
+  width: 270px;
+  height: 0.2px;
+  background-color: hsl(233deg 13% 49% / 39%);
+  position: absolute;
+  top: 332px;
+  transition-duration: .3s;
+}
+.card1_but {
+  width: 285px;
+  height: 43px;
+  background-color:hsl(237, 97%, 77%);
+  border-radius: 7px;
+  border: none;
+  color: #ffffffeb;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 17px;
+  letter-spacing: 1.3px;
+  top: 365px;
+  position: absolute;
+  cursor: pointer;
+  transition-duration:.3s;
+}
+.Acard1_but {
+  width: 285px;
+  height: 43px;
+  background-color: white;
+  border-radius: 7px;
+  border: none;
+  color: hsl(237, 97%, 77%);
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 17px;
+  letter-spacing: 1.3px;
+  top: 405px;
+  position: absolute;
+  cursor: pointer;
+  transition-duration: .3s;
+}
+.bas {
+  color: hsl(233, 13%, 49%);
+  font-size: 19px;
+  top: 25px;
+  position: absolute;
+}
+
+.price2 {
+  color: hsl(232, 13%, 33%);
+  font-size: 55px;
+  position: absolute;
+  top: 45px;
+}
+
+.card2_hr1 {
+  width: 270px;
+  height: 0.2px;
+  background-color: hsl(233deg 13% 49% / 39%);
+  position: absolute;
+  top: 173px;
+}
+
+.card2_tb {
+  color: hsl(233, 13%, 49%);
+  font-size: 17.5px;
+  top: 178px;
+  position: absolute;
+}
+
+.card2_hr2 {
+  width: 270px;
+  height: 0.2px;
+  background-color: hsl(233deg 13% 49% / 39%);
+  position: absolute;
+  top: 228px;
+}
+
+.card2_user {
+  color: hsl(233, 13%, 49%);
+  font-size: 17.5px;
+  top: 234px;
+  position: absolute;
+}
+
+.card2_hr3 {
+  width: 270px;
+  height: 0.2px;
+  background-color: hsl(233deg 13% 49% / 39%);
+  position: absolute;
+  top: 283px;
+}
+
+.card2_send {
+  position: absolute;
+  color: hsl(233, 13%, 49%);
+  top: 287px;
+  font-size: 17px;
+}
+
+.card2_hr4 {
+  width: 270px;
+  height: 0.2px;
+  background-color: hsl(233deg 13% 49% / 39%);
+  position: absolute;
+  top: 332px;
+}
+
+.card2_but {
+  width: 272px;
+  height: 47px;
+  background-image: linear-gradient(142deg, hsl(236, 72%, 79%), hsl(237, 63%, 64%));
+  border-radius: 10px;
+  border: none;
+  color: #ffffffeb;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 17px;
+  letter-spacing: 1.3px;
+  top: 365px;
+  position: absolute;
+  cursor: pointer;
+  transition-duration:.3s;
+}
+.card1_but:hover {
+  background-image: none;
+  background-color: transparent;
+  border: 1px hsl(237, 63%, 64%) solid;
+  color: hsl(236, 82%, 73%);
+}
+.card2_but:hover {
+  background-image:none;
+  background-color:transparent;
+  border:1px hsl(237, 63%, 64%) solid;
+  color:hsl(236, 82%, 73%);
+}
+.card3_but:hover {
+  background-image: none;
+  background-color: transparent;
+  border: 1px hsl(237, 63%, 64%) solid;
+  color: hsl(236, 82%, 73%);
+}
+
+
+.mas {
+  color: hsl(233, 13%, 49%);
+  font-size: 19px;
+  top: 25px;
+  position: absolute;
+}
+
+.price3 {
+  color: hsl(232, 13%, 33%);
+  font-size: 55px;
+  position: absolute;
+  top: 45px;
+}
+
+.card3_hr1 {
+  width: 270px;
+  height: 0.2px;
+  background-color: hsl(233deg 13% 49% / 39%);
+  position: absolute;
+  top: 173px;
+}
+
+.card3_tb {
+  color: hsl(233, 13%, 49%);
+  font-size: 17.5px;
+  top: 178px;
+  position: absolute;
+}
+
+.card3_hr2 {
+  width: 270px;
+  height: 0.2px;
+  background-color: hsl(233deg 13% 49% / 39%);
+  position: absolute;
+  top: 228px;
+}
+
+.card3_user {
+  color: hsl(233, 13%, 49%);
+  font-size: 17.5px;
+  top: 234px;
+  position: absolute;
+}
+
+.card3_hr3 {
+  width: 270px;
+  height: 0.2px;
+  background-color: hsl(233deg 13% 49% / 39%);
+  position: absolute;
+  top: 283px;
+}
+
+.card3_send {
+  position: absolute;
+  color: hsl(233, 13%, 49%);
+  top: 287px;
+  font-size: 17px;
+}
+
+.card3_hr4 {
+  width: 270px;
+  height: 0.2px;
+  background-color: hsl(233deg 13% 49% / 39%);
+  position: absolute;
+  top: 332px;
+}
+
+.card3_but {
+  width: 272px;
+  height: 47px;
+  background-image: linear-gradient(142deg, hsl(236, 72%, 79%), hsl(237, 63%, 64%));
+  border-radius: 10px;
+  border: none;
+  color: #ffffffeb;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 17px;
+  letter-spacing: 1.3px;
+  top: 365px;
+  position: absolute;
+  cursor: pointer;
+  transition-duration: .3s;
+}
+.Acard1_but:hover {
+  background-color:transparent;
+  border:1px white solid;
+  color:white;
+}
